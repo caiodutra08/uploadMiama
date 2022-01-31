@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    font-family: "Rubik";
+}
+
+#tituloPrincipal {
+    margin-top: 5px;
+    float: left;
+    margin-left: 15px;
+    font-family: "Rubik";
+    color: rgb(255, 255, 255);
+    width: 540px;
+}
+#divProdd{
+    box-shadow:  2px 4px 5px rgb(78, 78, 78);
+    padding: 10px;
+    border-radius: 5px;
+    background: #ffffff;
+   
+    margin-top: 40px;
+    margin-left: 130px;
+    float: left;
+    width: 260px;
+    
+}
+#prreco{
+    color: #35a335;
+}
+#divProdd form{
+    float: left;
+}
+#imgProd{
+    margin-left: 50px;
+    width: 150px;
+}
+
+header {
+    padding: 10px;
+    background-color: #b90410;
+    height: 50px;
+   
+    display: flex;
+}
+
+#user {
+    margin-left: -10px;
+    width: 30px;
+    float: right;
+}
+
+#button {
+    width: 40px;
+    height: 32px;
+    margin-top: 12px;
+    border: none;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.menuNavegacao {
+    margin-top: 0;
+    margin-left: -180px;
+    display: flex;
+    width: 90%;
+}
+
+#sair {
+    margin-top: 17px;
+    margin-left: 60px;
+    float: right;
+}
+
+#inputPesquisa {
+    margin-left: 70px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border: none;
+    position: relative;
+    top: 12px;
+    width: 5%;
+    float: right;
+    height: 30px;
+    transition: .4s;
+}
+
+#inputPesquisa:focus {
+    width: 30%;
+    transition: .4s;
+}
+
+.menu {
+    position: relative;
+    text-decoration: none;
+    font-family: "Rubik";
+    margin-top: 17px;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+.menuu {
+    position: relative;
+    text-decoration: none;
+    font-family: "Rubik";
+    margin-top: 17px;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+.menu:after {
+    content: "";
+    position: absolute;
+    background-color: whitesmoke;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+
+.menu:hover {
+    color: rgb(255, 255, 255);
+}
+
+.menu:hover:after {
+    width: 100%;
+}
+
+#Lancamentos {
+    margin-left: 90px;
+    margin-top: 100px;
+    float: left;
+    width: 800px;
+    height: 500px;
+    border-radius: 7px;
+    box-shadow: inset 0 0 0.5em rgb(19, 19, 19);
+    background-color: #97020c;
+}
+
+#pcPromo {
+    margin-left: 35px;
+    margin-top: 20px;
+    width: 340px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li {
+    background: #b90410;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+
+#produtos {
+    margin-top: 7px;
+    text-decoration: none;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+    font-weight: lighter
+}
+
+nav ul li a:hover:not(.menuu) {
+    background: #86030c;
+}
+
+nav ul ul {
+    position: absolute;
+    top: 40px;
+    display: none;
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+nav ul ul li {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
+    width: 126px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+#exibeProdutos {
+    width: 100%;
+    margin: 0;
+    display: flex;
+}
+
+#divBotoes {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao {
+    width: 240px;
+    height: 110px;
+    margin-left: 60px;
+    border: none;
+    border-radius: 3px;
+}
+
+#botao1 {
+    color: white;
+    background-color: #1f1f1f;
+}
+
+#botao2 {
+    color: white;
+    background-color: #2f63c5;
+}
+
+#botao3 {
+    color: white;
+    background-color: #35a335;
+}
+
+#botao4 {
+    color: white;
+    background-color: #820386;
+}
+
+#mouseBotao {
+    width: 70px;
+    float: left;
+}
+
+#slider {
+    overflow: hidden;
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 30s slider infinite;
+}
+
+#slider figure img {
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+.inputedita{
+    border-radius: 4px;
+    margin-right: 10px;
+    border: none;
+    background: #df3939;
+    height: 25px;
+}
+#excluiBut{
+    background: rgb(192, 75, 75);
+}
+#editaBut{
+    background:  #afafaf;
+}
+#fff{
+    margin-left: 540px;
+}
+hr{
+    margin-top: 10px;
+
+}
+h3{
+    margin-left: 35px;
+}
+#tituloBusca{
+    border: none;
+    border-radius: 3px;
+    background: #cecece;
+    padding: 2px;
+}
+.editaCategoriaa{
+    text-align: center;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    box-shadow:  2px 3px 3px rgba(0, 0, 0, 0.356);
+    background-color: #aa2413;
+    float: left;
+    border-radius: 4px;
+    transition: 1s;
+}
+
+.editaCategoriaa:hover{
+    padding: 50px;
+    background-color: #791609;
+}
+
+.exibicaoConsulta{
+    justify-content: center;
+    display: flex;
+}
+.inputt{
+    border:none;
+    border-radius: 5px;
+    width: 60px;
+    height: 20px;
+    margin-top: 2%;
+}
+.inputt:hover{
+    background: #a8a7a7;
+    transition: 0.3s;
+    color:white;
+}
+
+.nomeCategoriaa{
+    color: white;
+}
+
+.inputADM{
+    height: 20px;
+    border-radius: 5px;
+}
+
+.secaoCategoria{
+    margin-bottom: 15px;
+}
+#form1{
+    margin-bottom: 5px;
+}

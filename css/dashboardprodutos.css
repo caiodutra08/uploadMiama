@@ -1,0 +1,39 @@
+body {
+    background-image: url(../img/FundoLogin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title {
+    font-size: 60px;
+    margin-top: 15%;
+}
+
+#tronco {
+    margin-left: 50%;
+}
+
+#dataInicial {
+    margin-top: 4%;
+}
+
+#buscar {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 110px;
+    border-radius: 30px;
+    background-color: #86030c;
+    color: #eee;
+    cursor: pointer;
+}
+
+#visualizar {
+    margin-left: 20px;
+    height: 30px;
+    width: 110px;
+    border-radius: 30px;
+    background-color: #86030c;
+    color: #eee;
+    cursor: pointer;
+}

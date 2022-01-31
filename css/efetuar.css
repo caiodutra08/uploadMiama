@@ -1,0 +1,61 @@
+#title {
+    font-size: 50px;
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-bottom: 0.5%;
+}
+
+#name {
+    margin-left: 3%;
+}
+
+#deseja {
+    font-size: 27px;
+    margin-left: 3%;
+}
+
+.imgimg {
+    height: 250px;
+    width: 250px;
+    margin-left: 3%;
+}
+
+.nomeProduto{
+    font-size: 13.5px;
+    margin-left: -7%;
+}
+
+.menuuu {
+    margin-left: 20%;
+    margin-top: -4%;
+}
+
+#enviar {
+    height: 30px;
+    width: 110px;
+    border-radius: 30px;
+    background-color: #86030c;
+    color: #eee;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-bottom: 10px;
+}
+
+#limpar {
+    height: 30px;
+    width: 110px;
+    border-radius: 30px;
+    background-color: #86030c;
+    color: #eee;
+    cursor: pointer;
+    margin-left: 2%;
+    margin-bottom: 10px;
+}
+
+.labi {
+    color: black;
+}
+
+.label {
+    color: black;
+}

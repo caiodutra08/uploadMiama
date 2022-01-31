@@ -1,0 +1,46 @@
+#alterarDados {
+    margin-left: 55%;
+    margin-top: -30%;
+    border: none;
+}
+
+.inputss {
+    height: 30px;
+    width: 300px;
+    
+}
+
+.h2o{
+    color: #86030c;
+    font-size: 30px;
+}
+
+#meusDadosTitulo{
+    color: #86030c;
+    font-size: 60px;
+
+}
+
+#loginLogo {
+    height: 400px;
+    margin-left: 16%;
+    margin-top: 8%;
+}
+
+body {
+    background-color: #eee;
+    background-image: url(../img/FundoLogin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#alterar {
+    border-radius: 30px;
+    background-color: #86030c;
+    color: #eee;
+    height: 40px;
+    width: 180px;
+    margin-top: 15px;
+    font-size: 25px;
+    margin-left: 60px;
+}
